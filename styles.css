@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -166,6 +166,29 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+
+/*profile page*/
+
+.profile-example-1 h2, .profile-example-2 h2 {
+  text-align: center;
+}
+
+.profile-example-1, .profile-example-2 {
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 500;
+}
+
+.profile-example-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/profile-1.jpg);
+}
+
+.profile-example-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(images/profile-2.jpg);
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
